@@ -1,0 +1,25 @@
+.wrapper{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+.one{
+    display: inline-block;
+    background-color: green;
+    height: 20px;
+    width: 20px;
+    -ms-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    transform: rotate(180deg);
+    border-right: 2px solid black;
+}
+
+.two{
+    display: inline-block;
+    background-color: white;
+    height: 50%;
+    width: 10px;
+}
